@@ -1,0 +1,55 @@
+.card-container {
+  width: 392px;
+  height: 488px;
+  border: 1px solid #e8e8ea;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-Image {
+  width: 360;
+  height: 240px;
+}
+.card-body {
+  width: 360;
+  height: 200px;
+  margin-top: 15px;
+  /* border: 1px solid red; */
+  width: 100%;
+}
+.card-blog-category {
+  color: #4b6bfb;
+}
+.card-blog-title {
+  font-size: 24px;
+  color: #181a2a;
+}
+.card-blog-author {
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.card-author-name {
+  color: #97989f;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 10px;
+}
+.card-blog-publish-date {
+  color: #97989f;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  right: 40px;
+}
+.card-link-wrapper {
+  text-decoration: none;
+  margin-top: 10px;
+}
+.card-author-avatar > img {
+  height: 40px;
+  width: 40px;
+}

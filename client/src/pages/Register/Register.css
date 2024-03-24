@@ -1,0 +1,39 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.register-form-container {
+  width: 30%;
+}
+.register-btn {
+  width: 100%;
+}
+.register-title {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.7rem;
+}
+.register-error {
+  color: red;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+.register_togglePasswordbtn {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+.register_togglePasswordbtn:hover {
+  filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+.register-bottomText {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  margin-top: 8px;
+}

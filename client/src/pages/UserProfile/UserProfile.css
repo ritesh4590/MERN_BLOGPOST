@@ -1,0 +1,60 @@
+.user-profile-container {
+  max-width: 1124px;
+  margin: 0 auto;
+}
+.user-bio-container {
+  height: 344px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-blog-container {
+  width: 100%;
+}
+.user-bio {
+  height: 300px;
+  width: 90%;
+  background-color: #f6f6f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.user-name-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+}
+.user-profile-img > img {
+  height: 50px;
+  width: 50px;
+}
+.user-name-job {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.user-name-job > .author-name {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.user-name-job > .author-profession {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+.user-biodata {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.user-social-media > span {
+  margin-left: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,24 @@
+.createBlog-container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1140px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.createBlog-container Form {
+  width: 80%;
+}
+.create-blog-submitBtn {
+  width: 100%;
+}
+.custom-textarea {
+  height: 200px !important;
+}
+.blog-error {
+  color: red;
+  margin-top: -10px;
+}
+.blog-cat-error {
+  color: red;
+}

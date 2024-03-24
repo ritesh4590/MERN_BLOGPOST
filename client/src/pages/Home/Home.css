@@ -1,0 +1,62 @@
+.home-container {
+  margin: 0 auto;
+}
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.image {
+  height: 400px;
+  width: 90%;
+  position: relative;
+}
+.banner-image-details {
+  width: 50%;
+  /* border: 1px solid red; */
+  position: absolute;
+  left: 7rem;
+  top: 12rem;
+}
+.blog-category {
+  background-color: #4b6bfb;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  /* letter-spacing: 0.5px; */
+}
+.blog-title {
+  font-size: 36px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.blog-author,
+.blog-author-detail,
+.blog-publish-date {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 16px;
+}
+.blog-publish-date {
+  margin-left: 20px;
+}
+.Home-card {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.search-bar {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}

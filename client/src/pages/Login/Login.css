@@ -1,0 +1,39 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.login-form-container {
+  width: 30%;
+}
+.login-btn {
+  width: 100%;
+}
+.login-title {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.7rem;
+}
+.login-error {
+  color: red;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+.login_togglePasswordbtn {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+.login_togglePasswordbtn:hover {
+  filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+.login-bottomText {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  margin-top: 8px;
+}
